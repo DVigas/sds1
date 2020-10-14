@@ -14,7 +14,8 @@ const placeholder = {
     value: null
 }
 
-const BASE_URL = 'http://192.168.0.23:8080';  // colocar o endereco da APIRest
+//const BASE_URL = 'http://192.168.0.23:8080';  // colocar o endereco da APIRest - LOCAL
+const BASE_URL = 'https://sds1-dviga.herokuapp.com';
 //const BASE_URL = 'exp://q2-gki.dviga.front-mobile.exp.direct:80';  // colocar o endereco da APIRest
 
 const mapSelectValues = (games: Game[]) => {
